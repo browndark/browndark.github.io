@@ -40,6 +40,21 @@ a:hover{color:var(--accent-light); text-decoration:none}
   margin-bottom:20px; box-shadow:0 8px 24px rgba(99,102,241,0.3);
 }
 
+.profile-photo{
+  width:120px; height:120px;
+  border-radius:16px;
+  object-fit:cover;
+  margin-bottom:20px;
+  border:3px solid var(--accent);
+  box-shadow:0 12px 36px rgba(99,102,241,0.25);
+  transition: all 0.3s ease;
+}
+
+.profile-photo:hover{
+  transform: scale(1.05);
+  box-shadow:0 16px 48px rgba(99,102,241,0.35);
+}
+
 h1{margin:0; font-size:48px; letter-spacing:-0.5px; font-weight:800; color:var(--text)}
 .subtitle{margin:12px 0 0; color:var(--muted); font-size:18px; font-weight:500}
 .subtitle .highlight{color:var(--accent-light); font-weight:600}
