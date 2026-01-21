@@ -172,6 +172,21 @@ strong{color:var(--accent-light); font-weight:600}
 
 .project-links a:hover{background:rgba(99,102,241,0.2); color:var(--accent-light)}
 
+.project-gif{
+  width:100%;
+  max-width:400px;
+  border-radius:10px;
+  margin-top:14px;
+  display:block;
+  box-shadow:0 8px 20px rgba(99,102,241,0.15);
+  transition:all 0.3s ease;
+}
+
+.project-gif:hover{
+  box-shadow:0 12px 28px rgba(99,102,241,0.25);
+  transform:scale(1.02);
+}
+
 .divider{height:1px; background: linear-gradient(90deg, var(--line), transparent); margin:20px 0}
 .hint{font-size:13px; color:#7c8599; font-style:italic; padding:12px; background:rgba(0,0,0,0.2); border-left:3px solid var(--accent); border-radius:4px}
 
